@@ -8,7 +8,9 @@ const index = ({ services }) => {
       <Head>
         <title> Service || carpet cleaning service </title>
       </Head>
-      <h2 className="text-3xl">service Page {services.length}</h2>
+      <div className="text-center my-16 font-bold">
+      <h2 className="text-3xl">Our Services</h2>
+      </div>
       <Suspense fallback={<div> Loading...... </div>}>
         {services.map((service) => (
           <div key={service.id} className="card bg-base-100 shadow-xl my-10 mx-10">
