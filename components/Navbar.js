@@ -46,7 +46,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost normal-case text-xl">
-          Carpet Cleaner Logo
+         Company Logo
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
