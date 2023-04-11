@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import HeroSection from "../../components/HeroSection";
 import { Suspense } from "react";
 import Link from "next/link";
+import Comments from "../../components/comments";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function Home({services}) {
           </div>
         ))}
       </Suspense>
+      <Comments/>
       </section>
     </main>
   );
