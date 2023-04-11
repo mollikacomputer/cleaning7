@@ -28,7 +28,6 @@ export default function Home({services}) {
         ))}
       </Suspense>
       </section>
-      <h2 className="text-3xl">Home page</h2>
     </main>
   );
 }
